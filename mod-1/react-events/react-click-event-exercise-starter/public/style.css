@@ -6,3 +6,47 @@
   background-repeat: no-repeat;
   background-size: 225px;
 }
+.nut-image{
+  width: 225px;
+  padding: 0 10px;
+  float: left;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: 225px;
+ 
+  
+}
+.nut-image-hidden{
+  display: none;
+}
+.item-container{
+display: flex;
+flex-direction: column;
+padding : 20px;
+width: max-content;
+background-color: grey;
+align-content: center;
+
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding : 30px;
+  margin: 20px;
+  width: max-content;
+  align-items: center;
+}
+.item-pics{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+p{
+  color:white;
+}
+.heat{
+  display: flex;
+  justify-content: center ;
+ 
+}
